@@ -5,7 +5,7 @@ def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
 # Lista delle librerie da installare
-libraries = ["webdriver-manager"]
+libraries = ["webdriver-manager","selenium"]
 
 
 # Installa ogni libreria nella lista
